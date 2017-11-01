@@ -20,6 +20,9 @@ body {
 }
 
 .menu ul li {
+    position: relative;
+    top: 40%;
+    left: 40%;
     list-style-type: none;
     display: inline;
     padding-left: 15px;

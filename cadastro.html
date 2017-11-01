@@ -3,11 +3,12 @@
 <head>
     <title>Cadastro</title>
     <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <script type="text/javascript" src="js/javascript.js">
+    </script>
     <meta charset="UTF-8">
 </head>
 
-<script type="text/javascript" src="js/javascript.js">
-</script>
+
 
 <body bgcolor="#000000" onload="moveRelogio()">
 
@@ -15,10 +16,12 @@
         <input id="display_relogio" type="text" name="relogio" size="18">
     </form>
 
-    <div class="top_div">
-        <p align="center">
-            <font size="10" face="arial"> Apaixonados por maquinas do asphalto
-        </p>
+    <div class="menu">
+        <ul>
+            <li onclick="window.location='index.html'"><a href="index.html">Home</a></li>
+            <li onclick="window.location='gfotos.html'"><a href="gfotos.html">Galeria de fotos</a></li>
+            <li onclick="window.location='teste.html'"><a href="teste.html">Teste</a></li>
+        </ul>
     </div>
 
     <div>
@@ -28,7 +31,7 @@
                 <label for="text">Digite seu nome completo:</label>
                 <input id="nomeid" style="text-transform: uppercase" type="text" name="nome">
                 <label for="text">Digite seu e-mail:</label>
-                <input type="email" name="email"><br><br>
+                <input type="email" name="email">
                 <input type="submit" onclick="return validar()" name="enviar" id="formularioUser"><br><br>
                 <label for="text">Sexo:</label>
                 <input type="radio" name="sexo" value="masc">Masculino

@@ -1,3 +1,12 @@
+function somarValores() {
+    var s1 = document.getElementById("s1").value;
+    var s2 = document.getElementById("s2").value;
+    var s3 = parseInt(s1) + parseInt(s2);
+
+    var soma = "<hr><p> Soma: " + s3 + "</p>";
+    document.getElementById("somaprint").innerHTML = soma;
+}
+
 function salarioTotal() {
     var nome = document.getElementById("nome").value,
         idade = parseInt(document.getElementById("idade").value),
@@ -17,14 +26,4 @@ function salarioTotal() {
         "<p> Salário liquido: " + salarioLiquido + "</p>";
 
     document.getElementById("resultado").innerHTML = solucao;
-}
-
-
-function somarValores() {
-    var s1 = document.getElementById("s1").value;
-    var s2 = document.getElementById("s2").value;
-    var s3 = parseInt(s1) + parseInt(s2);
-
-    var soma = "<hr><p> Soma: " + s3 + "</p>";
-    document.getElementById("somaprint").innerHTML = soma;
 }

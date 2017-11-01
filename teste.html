@@ -1,12 +1,28 @@
 <html>
 
 <head>
-
+    <title>Teste</title>
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <script type="text/javascript" src="js/teste_salario.js">
+    </script>
     <script type="text/javascript" src="js/javascript.js">
     </script>
+    <meta charset="UTF-8">
 </head>
 
-<body>
+<body bgcolor="#000000" onload="moveRelogio()">
+
+    <form name="form_relogio">
+        <input id="display_relogio" type="text" name="relogio" size="18">
+    </form>
+
+    <div class="menu">
+        <ul>
+            <li onclick="window.location='index.html'"><a href="index.html">Home</a></li>
+            <li onclick="window.location='gfotos.html'"><a href="gfotos.html">Galeria de fotos</a></li>
+            <li onclick="window.location='cadastro.html'"><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </div>
     <fieldset>
         <legend>Calculadora soma</legend>
         <label>Valor 1:</label>
