@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <meta charset="UTF-8">
+</head>
+
+<script type="text/javascript" src="js/javascript.js">
+</script>
+
+<body bgcolor="#000000" onload="moveRelogio()">
+
+    <form name="form_relogio">
+        <input id="display_relogio" type="text" name="relogio" size="18">
+    </form>
+
+    <div class="top_div">
+        <p align="center">
+            <font size="10" face="arial"> Apaixonados por maquinas do asphalto
+        </p>
+    </div>
+
+    <div>
+        <form name="cadastrouser" method="POST">
+            <font size="2" face="arial">
+                Nao tem cadastro? <br> Entre com seus dados para se cadastrar.<br><br>
+                <label for="text">Digite seu nome completo:</label>
+                <input id="nomeid" style="text-transform: uppercase" type="text" name="nome">
+                <label for="text">Digite seu e-mail:</label>
+                <input type="email" name="email"><br><br>
+                <input type="submit" onclick="return validar()" name="enviar" id="formularioUser"><br><br>
+                <label for="text">Sexo:</label>
+                <input type="radio" name="sexo" value="masc">Masculino
+                <input type="radio" name="sexo" value="fem">Feminino<br><br>
+                <input type="checkbox" name="contrato" value="aceitar" checked>Aceito os termos deste contrato<br><br> Escolha uma das opções:
+                <select name="Escolha uma opção" id="opçoes">
+                <option value="opção1">Opção 1</option>
+                <option value="opção2">Opção 2</option>
+                <option value="opção3">Opção 3</option>
+                <option value="opção4">Opção 4</option>
+                </select><br><br> Obeservação:
+                <br>
+                <textarea name="observação" rows="6" cols="40"></textarea><br><br>
+                <input type="submit" name="Enviar" id="botao_enviar" value="Enviar">
+                <input type="reset" name="Limpar" id="botao_limpar" value="Limpar">
+
+
+        </form>
+    </div>
+</body>
+
+
+</html>

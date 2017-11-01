@@ -1,0 +1,30 @@
+<html>
+
+<head>
+
+    <script type="text/javascript" src="js/javascript.js">
+    </script>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Calculadora soma</legend>
+        <label>Valor 1:</label>
+        <input id="s1" type="text" />
+        <label>Valor 2: </label>
+        <input id="s2" type="text" />
+        <button id="somar" onclick="somarValores()">Resultado</button>
+        <p id="somaprint"></p> <br>
+
+    </fieldset>
+    <hr>
+    <h1>Funcionário e salário</h1>
+    <form name="frm" method="post">
+        Nome: <input type="text" name="nome" id="nome"> <br> Idade: <input type="text" name="idade" id="idade"> <br> Cargo: <input type="text" name="cargo" id="cargo"> <br> Salário <input type="text" name="salario" id="salario"> + reajuste de 38% + gratificação
+        de 20% - descontos de 15%<br>
+        <input type="button" value="Calcular" onclick="salarioTotal()" id="btncalcular">
+    </form>
+    <p id="resultado">Resultado</p>
+</body>
+
+</html>
