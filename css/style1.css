@@ -1,7 +1,7 @@
 /* Documento css*/
 
 body {
-    color: white;
+    background-color: azure;
 }
 
 * {
@@ -9,14 +9,6 @@ body {
     margin-left: 3;
     margin-top: 1;
     padding: 0;
-}
-
-.top_div {
-    position: relative;
-    width: 100%;
-    height: 80px;
-    background-color: #00155f;
-    border: 2px solid #00004f;
 }
 
 .menu ul li {
@@ -27,25 +19,34 @@ body {
     display: inline;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #fff;
+    background-color: rgb(109, 228, 255);
     font-family: Tahoma;
-    font-size: 12px;
+    font-size: 16px;
     color: #000000;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     cursor: pointer;
+    border-bottom: 1px solid rgb(0, 0, 0)!important;
 }
 
 ul li a {
     font-family: Tahoma;
-    font-size: 12px;
+    font-weight: bold;
+    font-size: 16px;
     color: #000000;
     text-decoration: none;
 }
 
 ul li:hover {
-    background-color: #ff0000
+    background-color: #ff2e2e
+}
+
+#header {
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+    background: #000;
 }
 
 #picture1 {
